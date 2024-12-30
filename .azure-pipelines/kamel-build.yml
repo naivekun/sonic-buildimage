@@ -65,7 +65,7 @@ stages:
         - name: broadcom
           variables:
             platform_rpc: brcm
-            dbg_image: yes
+            dbg_image: no
             # set to yes to build for Arista *in addition* to ONIE, adds about 30min of build time
             swi_image: no
         - name: mellanox
